@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="a">rosdeb</string>
+    <string name="b">koch</string>
+    <string name="c">rima</string>
+    <string name="d">meghla</string>
+    <string name="e">dibosh</string>
+    <string name="f">rijon</string>
+    <string name="g">mymage</string>
+    <string name="h">hello </string>
+    <string name="i">kikhobor</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

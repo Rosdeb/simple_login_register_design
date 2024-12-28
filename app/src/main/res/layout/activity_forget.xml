@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgetActivity">
+    <ImageView
+        android:id="@+id/imageback2"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:onClick="loginback"
+        android:src="@drawable/baseline_arrow_back_ios_24"
+        android:layout_width="50dp"
+        android:layout_height="25dp">
+
+    </ImageView>
+    <TextView
+        android:text="Forget password"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:text="Please enter your email address.You will be recive\na link to create a new password and email "
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginTop="160dp"
+        android:textSize="14dp"
+        android:layout_marginLeft="21dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="220dp"
+        android:layout_width="325dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="55dp">
+        <RelativeLayout
+            android:background="@drawable/backround"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="379dp"
+                app:boxStrokeColor="@color/white"
+                app:boxStrokeWidth="0dp"
+                android:gravity="center"
+                android:outlineProvider="none"
+                android:layout_height="55dp"
+                app:endIconMode="clear_text"
+                android:outlineSpotShadowColor="@color/white">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:textSize="17dp"
+                    android:inputType="textPassword"
+                    android:hint="Email" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <TextView
+        android:text="Not a vaild email address.Should be your@email.com"
+        android:layout_width="wrap_content"
+        android:textColor="@color/red"
+        android:layout_marginTop="290dp"
+        android:textSize="12dp"
+        android:layout_marginLeft="32dp"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <Button
+        android:layout_width="320dp"
+        android:layout_marginLeft="22dp"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        android:onClick="homepae"
+        android:textSize="20dp"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="400dp"
+        android:layout_height="60dp">
+
+    </Button>
+
+
+</RelativeLayout>
